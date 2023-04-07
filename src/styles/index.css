@@ -1,0 +1,99 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.marketing-funnel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.charts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.chart-container {
+  height: 400px;
+  width: 100%;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  margin: 20px;
+}
+
+.list h2 {
+  margin-bottom: 10px;
+}
+
+.list ul {
+  padding-left: 0;
+}
+
+.list li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.widget-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget {
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.widget h2 {
+  margin-bottom: 10px;
+}
+
+.widget h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.user-interface-container {
+  height: 100vh;
+}
+
+.user-interface {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.ui-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.ui-column {
+  flex: 1;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .ui-column {
+    padding: 10px;
+  }
+}
